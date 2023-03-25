@@ -41,7 +41,6 @@ export default function App() {
       return <>
          <table className="table">
       <THead columns={columns} />
-      
       <TBody items={items} columns={columns} />
     </table>
       </>
